@@ -16,7 +16,7 @@ export default function Volumes() {
   // onClick function
   const handleRandomVolume = () => {
     const randomVolume = getRandomElement(volumes);
-    // router.push (/)
+    // router.push (/) -  imperative routing
     router.push(`/volumes/${randomVolume.slug}`);
   };
 
